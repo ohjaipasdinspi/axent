@@ -19,7 +19,7 @@ p,ul{line-height:1.7;font-size:15px}
 <body>
 <main class="card">
   <h1>Conditions Générales d'Utilisation (CGU)</h1>
-  <p><em>Version 1.0 — Dernière mise à jour : 03 mai 2026</em></p>
+  <p><em>Version 1.0 — Dernière mise à jour : 22 mai 2024</em></p>
 
   <span class="section-title">I. Mentions Légales et Définitions</span>
   <p><span class="article-num">Article 1 : Objet.</span> Les présentes CGU ont pour objet d'encadrer juridiquement les modalités de mise à disposition du site et des services Axent.</p>
