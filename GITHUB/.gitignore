@@ -1,0 +1,22 @@
+# Configuration sensitive
+config/config.php
+*.env
+
+# Dépendances PHP
+vendor/
+composer.lock
+composer.phar
+
+# Logs et données temporaires
+logs/*.log
+*.log
+cache/
+tmp/
+
+# Fichiers système et IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+package-lock.json

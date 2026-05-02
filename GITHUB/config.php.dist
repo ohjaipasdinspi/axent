@@ -1,0 +1,30 @@
+<?php
+/**
+ * Axent - Template de configuration (Association Axent)
+ */
+
+// --- Base de données ---
+define('DB_HOST', 'localhost');
+define('DB_PORT', 3306);
+define('DB_NAME', 'axent_db');
+define('DB_USER', 'axent_user');
+define('DB_PASS', 'PASSWORD');
+define('DB_CHARSET', 'utf8mb4');
+
+// --- Sécurité ---
+define('SECRET_KEY', 'GENERATE_A_64_CHAR_KEY_HERE');
+
+// --- URLs ---
+define('APP_URL', 'https://votre-domaine.fr');
+define('URL_APP', 'https://app.votre-domaine.fr');
+define('URL_AUTH', 'https://auth.votre-domaine.fr');
+define('URL_API', 'https://api.votre-domaine.fr');
+define('URL_CDN', 'https://cdn.votre-domaine.fr');
+
+// --- Mail ---
+define('MAIL_ENABLED', true);
+define('MAIL_FROM', 'noreply@votre-domaine.fr');
+define('MAIL_FROM_NAME', 'Axent');
+
+// --- Chemins ---
+define('LOG_PATH', __DIR__ . '/../logs');

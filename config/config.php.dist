@@ -1,0 +1,48 @@
+<?php
+/**
+ * Axent - Template de configuration
+ * Renommez ce fichier en config.php et remplissez les valeurs.
+ */
+
+// --- Base de données ---
+define('DB_HOST', 'localhost');
+define('DB_PORT', 3306);
+define('DB_NAME', 'axent_db');
+define('DB_USER', 'axent_user');
+define('DB_PASS', 'VOTRE_MOT_DE_PASSE_FORT');
+define('DB_CHARSET', 'utf8mb4');
+
+// --- Sécurité ---
+// Générez une clé de 64 caractères : php -r "echo bin2hex(random_bytes(32));"
+define('SECRET_KEY', 'CHANGER_MOI_PAR_UNE_CHAINE_TRES_LONGUE_ET_ALEATOIRE');
+
+// --- URLs ---
+define('APP_ENV', 'production'); 
+define('APP_DEBUG', false);
+define('APP_VERSION', '1.0.0');
+
+define('APP_URL', 'https://votre-domaine.fr');
+define('URL_APP', 'https://app.votre-domaine.fr');
+define('URL_AUTH', 'https://auth.votre-domaine.fr');
+define('URL_API', 'https://api.votre-domaine.fr');
+define('URL_CDN', 'https://cdn.votre-domaine.fr');
+
+// --- Mail (PHPMailer) ---
+define('MAIL_ENABLED', true);
+define('MAIL_HOST', 'localhost');
+define('MAIL_PORT', 587);
+define('MAIL_AUTH', false);
+define('MAIL_FROM', 'noreply@votre-domaine.fr');
+define('MAIL_FROM_NAME', 'Axent');
+
+// --- RGPD / Paramètres ---
+define('RGPD_COOKIE_LIFETIME_DAYS', 395); // 13 mois
+define('RGPD_ANONYMIZE_AFTER_MONTHS', 13);
+define('SESSION_LIFETIME', 3600);
+
+// --- Chemins ---
+define('LOG_PATH', __DIR__ . '/../logs');
+
+// --- Langues ---
+define('LANG_DEFAULT', 'fr');
+define('LANG_AVAILABLE', ['fr', 'en', 'es', 'de']);

@@ -1,0 +1,19 @@
+{
+    "name": "axent/axent",
+    "description": "Plateforme de gestion du consentement cookies - Association Axent",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Association Axent",
+            "email": "contact@axet.fr"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": { "Axent\\": "core/" }
+    }
+}
