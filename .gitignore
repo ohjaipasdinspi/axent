@@ -1,0 +1,37 @@
+# Secrets and local configuration
+httpdocs/config/config.php
+.env
+.env.*
+!.env.example
+
+# Dependencies and build artifacts
+httpdocs/vendor/
+node_modules/
+
+# Logs, cache, uploads, and temp data
+logs/
+tmp/
+var/
+httpdocs/logs/
+httpdocs/cache/
+httpdocs/assets/uploads/
+httpdocs/.well-known/acme-challenge/
+httpdocs/.well-known/discord
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+.imunify_patch_id
+.myimunify_id
+httpdocs/.git.backup-local/
+
+# Server/runtime directories not meant for source control
+bin/
+dev/
+etc/
+lib/
+lib64/
+usr/

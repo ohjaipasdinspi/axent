@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+  <!-- Fond icône -->
+  <rect x="0" y="8" width="44" height="44" rx="12" fill="#FF6B35"/>
+  <!-- Cookie icon -->
+  <text x="22" y="37" font-size="24" text-anchor="middle" font-family="sans-serif">🍪</text>
+  <!-- Texte AXENT -->
+  <text x="58" y="38" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif"
+        font-size="28" font-weight="800" fill="#2D3047" letter-spacing="-1">Axent</text>
+  <!-- Point orange sur le i -->
+  <circle cx="192" cy="18" r="4" fill="#4ECDC4"/>
+</svg>
